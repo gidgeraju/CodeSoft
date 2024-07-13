@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: ubuntu;
+}
+/* header */
+header
+{
+    color: white;
+    padding-bottom: 10%;
+    border-bottom-left-radius: 60px;
+    background-image: url("./images/bg-pattern-intro-desktop.svg");
+    background-color:  hsl(353, 100%, 62%);
+    /* background-size: 1500px; */
+    background-position: 25% 55%;
+
+}
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+/* 1st para */
+.sam{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#sam2{
+    margin-right: 20%;
+    margin-left: 10%;
+    
+}
+/* 2nd para */
+
+.fam{
+    background-color:hsl(237, 17%, 21%);
+    border-top-right-radius:60px ;
+    border-bottom-left-radius:60px ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("./images/bg-pattern-circles.svg");
+    background-position: left 0% bottom 20px;
+    background-repeat: no-repeat;
+}
+#fam1{
+    margin-left: 10%;
+    margin-right: 5%;
+}
+#fam2{
+margin-right: 20%;
+}
+
+/* 3rd para */
+
+.paraw{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.g2{
+    margin-left: 10%;
+    margin-right: 5%;
+   
+}
+.g1{
+    margin-right: 20%;
+
+}
+#sharan{
+    object-position: bottom 0px right 128px;
+}
+/* footer */
+
+footer{
+    color:white;
+    border-top-right-radius:40px ;
+   
+}
+#product{
+    padding-left:30px;
+display: flex;
+  font-weight:bold;
+  padding-top:12px;
+}
+#foot{
+    /* height:100vh; */
+    display: flex;
+    justify-content: space-around;
+}
+/* media quweriews */
+/* @media  (min-width:300px) and (max-width: 1440px) {
+      */
+@media screen and (min-width: 481px) and (max-width: 768px){
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.w1{
+    text-align: center;
+    align-items: center;
+}
+.paraw{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.g1{
+    text-align: center;
+}
+#foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+} 

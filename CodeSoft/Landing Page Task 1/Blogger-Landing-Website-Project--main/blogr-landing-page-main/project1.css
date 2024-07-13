@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: ubuntu;
+}
+/* header */
+header
+{
+    color: white;
+    /* padding-bottom: 10%; */
+    border-bottom-left-radius: 60px;
+    background-image: url("./images/bg-pattern-intro-desktop.svg");
+    background-color:  hsl(353, 100%, 62%);
+    /* background-size: 1500px; */
+    background-position: 25% 55%;
+
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+#hi{
+    display: flex;
+    justify-content:space-between;
+}
+
+/* 1st row */
+
+@media screen and (min-device-width: 375px) and (max-device-width: 999px) { 
+    .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
